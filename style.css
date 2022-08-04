@@ -1,3 +1,21 @@
-/* :root {
-    --main-bg-color: brown;
-  } */
+
+
+:root {
+    --footer_color: #111f4d;
+  }
+
+  .benefits {
+    background-color: var(--footer_color);
+  }
+
+  .button1 {
+    background-color: var(--footer_color);
+  }
+
+footer {
+  background-color: var(--footer_color);
+}
+
+footer a {
+  text-decoration: none;
+}
