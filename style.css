@@ -12,6 +12,18 @@
     background-color: var(--footer_color);
   }
 
+   .steps {
+    border: 1px solid black;
+   }
+
+  .pic4 {
+    width: 250px;
+  }
+  /* .step1 {
+    margin
+    }
+  }  */
+
 footer {
   background-color: var(--footer_color);
 }
