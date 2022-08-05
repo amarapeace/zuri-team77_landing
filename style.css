@@ -4,11 +4,9 @@
     --footer_color: #111f4d;
   }
 
-  .benefits {
-    background-color: var(--footer_color);
-  }
 
-  .button1 {
+
+  nav button,footer, .button1, .benefits {
     background-color: var(--footer_color);
   }
 
@@ -19,15 +17,16 @@
   .pic4 {
     width: 250px;
   }
-  /* .step1 {
-    margin
+ 
+section {
+    margin-top: 5rem;
+      margin-bottom: 5rem;
     }
-  }  */
-
-footer {
-  background-color: var(--footer_color);
-}
 
 footer a {
   text-decoration: none;
+}
+
+.right, .left {
+  width: 80%;
 }
