@@ -38,6 +38,11 @@ footer a {
   width: 100%
 }
 
-i {
+.section1 i {
   font-size: xx-large;
+}
+
+.stars {
+  font-size: small;
+  color: gold;
 }
