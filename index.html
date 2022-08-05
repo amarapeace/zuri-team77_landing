@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
     <title>Landing</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light navbar-light my-5">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light mb-5">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="p-2" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +26,8 @@
           <a class="nav-link mx-2" href="#">Contact us</a>
         </div>
         <div class="d-flex">
-          <button class="btn btn-light mx-2" type="submit">Login</button>
-          <button class="btn mx-2 text-light" type="submit">Sign In</button>
+          <button class="btn btn-light mx-2 bg-light" type="submit">Login</button>
+          <button class="btn mx-2 text-light link-info" type="submit" style="background-color: var(--footer_color)">Sign In</button>
         </div>
       </div>
       
@@ -46,7 +47,7 @@
             <p>Our Terms and Conditions templates are easy to use, you can capture your 
               business' legal agreement at a glance</p>
             </div>
-            <button class="btn col-lg-3 btn-lg m-auto text-light text-center button1">Get Started</button>
+            <button class="btn col-lg-3 btn-lg m-auto text-light text-center button1 link-info" style="background-color: var(--footer_color)"> Get Started</button>
         </div>
         <div class="row p-2">
           <div class="col-sm-12 col-md-12 col-lg-6 px-5">
@@ -60,7 +61,8 @@
         <div class="container-fluid" style="background-color: var(--footer_color)">co</div>
         <div class="container-fluid" style="background-color: var(--footer_color)">co</div>
       </section>
-      <section class="mx-3 my-5 p-4">
+
+      <section class="mx-3 my-5 p-4 section1">
         <div class="container">
           <div class="text-wrap text-bold mx-auto my-5 text-center">
           <h3 class="fw-bolder">Everything you need and </h3>
@@ -68,13 +70,13 @@
           </div>
           <div class="row mb-5">
             <div class="col-sm-12 col-md-12 col-lg-6">
-              <button class="btn btn-lg col-lg-9 my-3 justify-content-left text-light" style="background-color: var(--footer_color)">Terms and conditions</button>
+              <button class="btn btn-lg col-lg-9 my-3 justify-content-left text-light link-info" style="background-color: var(--footer_color)">Terms and conditions</button>
               <br>
-              <button class="btn btn-lg col-lg-6 my-3 justify-content-start text-light" style="background-color: var(--footer_color)">Privacy Policy</button>
+              <button class="btn btn-lg col-lg-6 my-3 justify-content-start text-light link-info" style="background-color: var(--footer_color)">Privacy Policy</button>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
               <p>Terms and Conditions is a legal agreement between a service and a person that wantts to use that service. Our geneator can help you clear all your doubts with no hassle.</p>
-              <button class="btn btn-lg m-auto text-light text-center button1">Get started</button>
+              <button class="btn btn-lg m-auto text-light text-center link-info button1" style="background-color: var(--footer_color)">Get started</button>
             </div>
 
           </div>
@@ -85,29 +87,29 @@
         </div>
         <div class="row gx-4 m-auto">
           <div class="col-sm-12 col-lg-3 col-md-9 m-auto text-center text-light mt-3 benefits">
-            <img src="./img/safe.png" alt="" class="">
+            
              
-              <i class="bi bi-apple"></i>
-            <h3>Safe and Secure</h3>
+          <div class="my-3"><i class="bi bi-shield-lock"></i></div>
+            <h4>Safe and Secure</h4>
           <p>We're always looking for regulations around the world in order to create the best and recent policies for you business.</p>
           </div>
           <div class="col-md-9 col-sm-12 col-lg-3 m-auto text-center text-white mt-3 benefits">
-            <img src="./img/update.png" alt="">
-            
-            <h3>Update</h3>
+            <div class="my-3">
+            <i class="bi bi-arrow-repeat"></i></div>
+            <h4>Update</h4>
             
           <p>We are constantly working to improve your experience on Terms77, and when we do, we'll let you know about it.</p>
           </div>
           <div class="col-md-9 col-sm-12 col-lg-3 m-auto text-center text-light mt-3 benefits">
             
-              <img src="./img/easy.png" class="" alt="">
-            <h3>Easy to use</h3>
+          <div class="my-3"><i class="bi bi-book-half"></i></div>
+            <h4>Easy to use</h4>
           <p>Terms77 is an easy to use platform that lets you edit, monitor and enforce your policy settings in minutes.</p>
           </div>
         </div>
       </section>
 
-      <section class="mx-3 p-3">
+      <section class="mb-3 p-3">
         <div class="container p-3 mx-auto my-5 border-0">
           <div class="text-bold fw-bolder mx-auto text-center">
           <h3 class="fw-bolder">How it works</h3>
@@ -130,10 +132,10 @@
 
             <div class="col-sm-12 col-lg-5 col-md-12 offset-lg-0.1 steps">
               <div class="row p-3 mx-auto">
-                <div class="col col-md-12 col-sm-12 col-lg-6">
+                <div class="col-md-12 col-sm-12 col-lg-6">
                   <img src="./img/pic_4.jpg" alt="" class="picture">
               </div>
-                <div class="col col-md-12 col-sm-12 col-lg-6">
+                <div class="col-md-12 col-sm-12 col-lg-6">
                  
                     <h4 class="fw-bolder">Step 2</h4>
                     <p>All you need to do is answer a handful of simple questions, and we'll generate the Term of Service for you website or app. It should take you less than 5 minutes to get it done.</p>
@@ -184,7 +186,7 @@
         <h3 class="fw-bolder">What our users have to say</h3>
         </div>
         <div class="row mx-auto my-5 justify-content-between">
-          <div class="col-sm-12 clo-md-12 col-lg-3 my-5 text-center p-4 border">
+          <div class="col-sm-12 col-md-12 col-lg-3 my-5 text-center p-4 border">
             <div class="row my-3">
               <img class="col-3" src="./img/mary.png" alt="">
               <h3 class="col ms-0">Mary Jane</h3>
@@ -192,7 +194,7 @@
             <p class="text-start">We're always looking for regulations around the world in order to create the best and recent policies for you business.</p>
           </div>
 
-          <div class="col-sm-12 clo-md-12 col-lg-3 my-5 text-center p-4 border">
+          <div class="col-sm-12 col-md-12 col-lg-3 my-5 text-center p-4 border">
             <div class="row my-3">
               <img class="col-3" src="./img/jaci.png" alt="">
               <h3 class="col ms-0">Jacinta Chris</h3>
@@ -200,7 +202,7 @@
             <p class="text-start">We are constantly working to improve your experience on Terms77, and when we do, we'll let you know about it.</p>
           </div>
 
-          <div class="col-sm-12 clo-md-12 col-lg-3 my-5 text-center p-4 border">
+          <div class="col-sm-12 col-md-12 col-lg-3 my-5 text-center p-4 border">
             <div class="row my-3">
               <img class="col-3" src="./img/Matthew.png" alt="">
               <h3 class="col ms-0">Matthew Frank</h3>
@@ -229,19 +231,19 @@
         </div>
           <div class="col-sm-12 col-lg-2 col-md-4 p-2">
             <div><h4>Company</h4></div>
-            <p><a class="text-light" href="" > About us</a></p>
-            <p><a class="text-light" href=""> Our Terms of use</a></p>
-            <p><a class="text-light" href="">Our Privacy Policy</p></a>
+            <p><a class="text-light link-info" href="" > About us</a></p>
+            <p><a class="text-light link-info" href=""> Our Terms of use</a></p>
+            <p><a class="text-light link-info" href="">Our Privacy Policy</p></a>
           </div>  
             <div class="col-sm-12 col-lg-2 col-md-6 p-2">
               <div><h4>Resources</h4></div>
-              <p><a class="text-light" href=""> Terms and conditions</a></p>
-              <p><a class="text-light" href=""> Privacy policies</a></p>
+              <p><a class="text-light link-info" href=""> Terms and conditions</a></p>
+              <p><a class="text-light link-info" href=""> Privacy policies</a></p>
             </div>
               <div class="col-sm-12 col-lg-2 col-md-5 p-2">
                 <div><h4> Help</h4></div>
-                <p><a class="text-light" href=""> Contact us</a></p>
-                <p><a class="text-light" href=""> FAQs</a></p>
+                <p><a class="text-light link-info" href=""> Contact us</a></p>
+                <p><a class="text-light link-info" href=""> FAQs</a></p>
               </div>
         </div></div>
         <hr>

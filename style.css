@@ -6,13 +6,17 @@
 
 
 
-  nav button,footer, .button1, .benefits {
+  nav button, footer, .button1, .benefits, .section1 button {
     background-color: var(--footer_color);
   }
 
    .steps {
     border: 1px solid black;
    }
+
+footer a:hover {
+  color: coral;
+}
 
   .pic4 {
     width: 250px;
@@ -33,4 +37,8 @@ footer a {
 
 .picture {
   width: 100%
+}
+
+i {
+  font-size: xx-large;
 }
